@@ -1,0 +1,169 @@
+body {
+    font-family: lato;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffffff;
+    width: 1920px;
+    height: 3195px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .theories-container {
+    width: auto ;
+    height: auto;
+    margin: 0 auto;
+    padding: 48px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main-heading {
+    color: #000000;
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .intro-text {
+    color: #ff8000;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    text-align: center;
+    width: 1220px;
+    margin: 53px auto 63px;
+  }
+  
+  .theories-wrapper {
+    width: 100%;
+    padding-left: 67px;
+    display: flex;
+    flex-direction: column;
+    gap: 101px;
+  }
+  
+  .bigbang-section {
+    width: 696px;
+  }
+  
+  .bigbang-title {
+    color: #d9ae00;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  
+  .bigbang-description {
+    color: #6d81b4;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .blackhole-section {
+    width: 1007px;
+    background-color: #ffcebe;
+    border: 2px solid #000000;
+    border-right: none;
+    border-bottom: none;
+  }
+  
+  .blackhole-content {
+    padding: 64px;
+    border-right: 3px solid #ff0000;
+    border-bottom: 3px solid #ff0000;
+  }
+  
+  .blackhole-title {
+    color: #f44e50;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .blackhole-description {
+    color: #8b2b2c;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    width: 681px;
+    margin: 0 auto 30px;
+  }
+  
+  .blackhole-images {
+    position: relative;
+    height: 415px;
+  }
+  
+  .blackhole-bg,
+  .blackhole-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .string-section {
+    width: 100%;
+  }
+  
+  .string-content {
+    width: 1007px;
+  }
+  
+  .string-title {
+    color: #4716e4;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: right;
+    margin-bottom: 24px;
+  }
+  
+  .string-description {
+    background-color: #ffc1e3;
+    border: 3px solid #ff5da3;
+    padding: 24px;
+    color: #616161;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .key-points h3 {
+    color: #414651;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+  }
+  
+  
+  .point-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 8px;
+    color: #c27512;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .point-bullet {
+    width: 16px;
+    height: 16px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-top: 4px;
+  }
+  
+  .theory-image {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
